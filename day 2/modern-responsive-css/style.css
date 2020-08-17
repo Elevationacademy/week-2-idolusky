@@ -1,0 +1,253 @@
+/* .fa-android {
+    color: red;
+    font-size: 100px;
+} */
+
+/* @media (max-width : 700px) {
+        .column {
+         width: 100%;   
+    }
+} */
+
+/* #container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+} */
+/* 
+#container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    "s s h h f f"
+    "s s h h f f"
+    "s s . . f f"
+    "s s m m f f"
+    "s s m m f f";
+
+    grid-gap: 10px;
+}
+
+.head {
+    grid-area: h;
+    background-color: sandybrown;
+}
+
+.side-nav {
+    grid-area: s;
+    background-color: salmon;
+}
+
+.main {
+    grid-area: m;
+    background-color: teal
+}
+
+.foot {
+    grid-area: f;
+    background-color: grey
+} */
+
+
+
+/* #nav-container{
+    display: grid;
+    background-color: #2c3e50;
+    grid-template-columns: repeat(2, 1fr);
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.main-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.nav-item{
+    display: grid;
+    align-content: center;
+    color: #ecf0f1;
+    height: 100%;
+}
+.logo-container{
+    display: grid;
+    justify-content: end;
+} */
+
+
+/* .search-btn {
+    display: inline-block;
+    padding-left: 25px;
+}
+#search-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 50px;
+}
+
+#results-container{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.result{
+    display: grid;
+    height: 100px;
+    background-color: #16a085;
+    text-align: center;
+    align-content: center;
+    border-radius: 4px;
+} */
+
+
+
+/* #master-container {
+    display: grid;
+    grid-template-areas: 
+    "f c c c c"
+    "f c c c c"
+    "f c c c c"
+    "f c c c c"
+    "f c c c c"
+    "f i i i i";
+    height: 100vh;
+
+}
+
+#friends-container {
+    grid-area: f;
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
+    background-color: rgb(146, 86, 146);
+}
+#friends {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 700;
+    padding-left: 20px;
+
+}
+.friend {
+    font-family: 'Baloo Tamma 2', cursive;
+    padding-left: 20px;
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    background-color: rgb(175, 109, 175);
+
+}
+
+#chat-window {
+    grid-area: c;
+}
+
+#input {
+    grid-area: i;
+} */
+
+#chat {
+  
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 1fr 4fr;
+        grid-template-rows: 15fr 1fr;
+        grid-template-areas: 
+        "f c"
+        "f i";
+    
+}
+#chat p {
+    font-family: 'Alata', sans-serif;
+}
+#friends {
+    grid-area: f;
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color: rgb(146, 86, 146);
+    padding-left: 5px;
+
+}
+#friends p {
+    background-color:  rgb(175, 109, 175);
+    height: 30px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-content: space-around;
+}
+
+h3 {
+    background-color:  rgb(175, 109, 175);
+    height: 30px;
+    
+
+}
+
+#chatbox {
+    grid-area: c;
+    background-color: rgba(223, 233, 241, 0.973);
+    display: grid;
+    /* grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr); */
+}
+
+#input {
+    grid-area: i;
+    display: grid;
+    grid-template-columns: 85% 15%;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    
+}
+#input div {
+    background-color: rgb(175, 109, 175);
+    text-align: center;
+    display: inline-block;
+    text-justify: center;
+}
+        /* .text-container-left {
+            display: grid;
+            grid-template-rows: 1fr;
+        } */
+
+.text-container .text {
+    display: inline;
+}
+.text-container .time {
+    display: inline;
+}
+
+.left {
+    background-color: rgb(206, 198, 198);
+    height: fit-content;
+    width: fit-content;
+    margin-left: 20px;
+    padding: 8px;
+    
+} 
+.right {
+    background-color: greenyellow;
+    display: table ;
+    height: fit-content;
+    width: fit-content;
+   justify-items: right;
+    margin-right: 20px;
+    padding: 8px;
+} 
+
+
+
+.text {
+    font-size: 25px;
+    align-content: center;
+    justify-content: center;
+    padding: 8px;
+}
+.time {
+    padding-top: 5px;
+    font-size: 10px;
+}
